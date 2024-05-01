@@ -6,7 +6,7 @@ The full version of the paper is available on [arXiv](https://arxiv.org/abs/2402
 
 ## Algorithm 2
 
-To run the code corresponding to Algorithm 2 in the paper, you need to set proper parameters and hyperparameters. First, configure the DP-SGD parameters, including the clipping constant, standard deviation of the Gaussian noise, learning rate, ε₀, and ε₁ in the Algorithm2.py file. Additionally, specify the dataset, number of epochs, and number of trained models in the args.py file. After setting the parameters, run the model using the following command:
+To run the code corresponding to Algorithm 2 in the paper, you need to set proper parameters and hyperparameters. First, configure the DP-SGD parameters, including the clipping constant, standard deviation of the Gaussian noise, learning rate as well as ε₀, and ε₁ in the Algorithm2.py file. Additionally, specify the dataset, number of epochs, and number of trained models in the args.py file. After setting the parameters, run the model using the following command:
 
 ```bash
 python3 Algorithm2.py

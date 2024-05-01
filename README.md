@@ -18,7 +18,7 @@ To determine the proper standard deviation of the Gaussian noise used in DP-SGD 
 
 ## DP-FERMI Method
 
-To run the code corresponding to the DP-FERMI method, configure all hyperparameters including the dataset, learning rates, privacy parameters (ε and δ), and the range of fairness to accuracy tradeoff (λ). After setting the parameters, execute the model using the following command:
+To run the code corresponding to the DP-FERMI method, configure all hyperparameters including the dataset, learning rates, privacy parameters (ε and δ), and the range of fairness to accuracy tradeoff (λ \lambda). After setting the parameters, execute the model using the following command:
 
 ```bash
 python3 dp_fermi.py

@@ -24,4 +24,5 @@ To run the code corresponding to the DP-FERMI method, configure all hyperparamet
 python3 dp_fermi.py
 ```
 
-This README provides comprehensive instructions for running the code in this repository. If you encounter any issues or have questions, feel free to reach out or refer to the paper for further details.
+This README provides comprehensive instructions for running the code in this repository. If you encounter any issues or have questions, feel free to reach out via email at [ghoukash@mcmaster.ca](mailto:ghoukash@mcmaster.ca) or refer to the paper for further details.
+

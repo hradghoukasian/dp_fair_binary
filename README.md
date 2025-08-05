@@ -83,7 +83,7 @@ To run **Algorithm 2**:
 3. Then run:
 ```bash
 python3 Algorithm2.py
-
+```
 ---
 
 **Note:** Before running Algorithm 2, you must determine the appropriate noise level for DP-SGD using one of the following privacy accounting methods:

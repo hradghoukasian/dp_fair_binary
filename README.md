@@ -17,7 +17,11 @@ Our proposed **Algorithm 2** achieves **competitive accuracy** compared to the s
 Through several experiments on two well-known datasets (**Adult** and **Credit Card**), we demonstrate that **Algorithm 2** achieves competitive accuracy compared to **DP-FERMI**.  
 In particular, for a given level of accuracy and privacy, our algorithm provides a significantly better fairness guarantee across both datasets.
 
-### Adult Dataset (ε′ = 3, δ′ = 10⁻⁵)
+<table>
+<tr>
+<td>
+
+<p align="center"><b>Adult Dataset (ε′ = 3, δ′ = 10⁻⁵)</b></p>
 
 | Method              | Accuracy | Statistical Parity Gap |
 |---------------------|:--------:|:----------------------:|
@@ -28,7 +32,10 @@ In particular, for a given level of accuracy and privacy, our algorithm provides
 | DP-FERMI (λ = 1.9)  | 0.7749   | 0.0126                 |
 | DP-FERMI (λ = 2.5)  | 0.7673   | 0.0099                 |
 
-### Adult Dataset (ε′ = 9, δ′ = 10⁻⁵)
+</td>
+<td>
+
+<p align="center"><b>Adult Dataset (ε′ = 9, δ′ = 10⁻⁵)</b></p>
 
 | Method              | Accuracy | Statistical Parity Gap |
 |---------------------|:--------:|:----------------------:|
@@ -38,6 +45,10 @@ In particular, for a given level of accuracy and privacy, our algorithm provides
 | DP-FERMI (λ = 1.5)  | 0.7810   | 0.0152                 |
 | DP-FERMI (λ = 1.7)  | 0.7782   | 0.0121                 |
 | DP-FERMI (λ = 2.5)  | 0.7693   | 0.0030                 |
+
+</td>
+</tr>
+</table>
 
 ### Credit Card Dataset (ε′ = 3, δ′ = 10⁻⁵)
 

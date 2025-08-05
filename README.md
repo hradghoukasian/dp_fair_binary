@@ -138,12 +138,11 @@ python3 dp_fermi.py
 ```
 
 ---
-📄 Citation
+## 📄 Citation
+
 If you use this code or find our work helpful, please cite:
 
-bibtex
-Copy
-Edit
+```bibtex
 @inproceedings{ghoukasian2024differentially,
   title     = {Differentially Private Fair Binary Classifications},
   author    = {Ghoukasian, Hrad and Asoodeh, Shahab},
@@ -152,3 +151,4 @@ Edit
   year      = {2024},
   organization = {IEEE}
 }
+

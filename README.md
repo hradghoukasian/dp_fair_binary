@@ -96,3 +96,37 @@ python3 Algorithm2.py
 
 - **GDP Accountant**  
   In `Algorithm2.py`, set `initialize_accountant()` to return `GaussianAccountant()`.
+
+
+  ---
+
+  ## 🧮 DP-FERMI Method
+
+To run the **DP-FERMI** baseline:
+
+1. Set all hyperparameters in `dp_fermi.py`:
+   - Dataset  
+   - Learning rates  
+   - Privacy parameters (ε, δ)  
+   - Fairness–accuracy trade-off parameter λ  
+
+2. Run:
+```bash
+python3 dp_fermi.py
+```
+
+---
+📄 Citation
+If you use this code or find our work helpful, please cite:
+
+bibtex
+Copy
+Edit
+@inproceedings{ghoukasian2024differentially,
+  title     = {Differentially Private Fair Binary Classifications},
+  author    = {Ghoukasian, Hrad and Asoodeh, Shahab},
+  booktitle = {2024 IEEE International Symposium on Information Theory (ISIT)},
+  pages     = {611--616},
+  year      = {2024},
+  organization = {IEEE}
+}

@@ -50,7 +50,11 @@ In particular, for a given level of accuracy and privacy, our algorithm provides
 </tr>
 </table>
 
-### Credit Card Dataset (ε′ = 3, δ′ = 10⁻⁵)
+<table>
+<tr>
+<td>
+
+<p align="center"><b>Credit Card Dataset (ε′ = 3, δ′ = 10⁻⁵)</b></p>
 
 | Method              | Accuracy | Statistical Parity Gap |
 |---------------------|:--------:|:----------------------:|
@@ -61,7 +65,10 @@ In particular, for a given level of accuracy and privacy, our algorithm provides
 | DP-FERMI (λ = 1)    | 0.7759   | 0.0105                 |
 | DP-FERMI (λ = 2.5)  | 0.7669   | 0.0110                 |
 
-### Credit Card Dataset (ε′ = 9, δ′ = 10⁻⁵)
+</td>
+<td>
+
+<p align="center"><b>Credit Card Dataset (ε′ = 9, δ′ = 10⁻⁵)</b></p>
 
 | Method              | Accuracy | Statistical Parity Gap |
 |---------------------|:--------:|:----------------------:|
@@ -71,6 +78,10 @@ In particular, for a given level of accuracy and privacy, our algorithm provides
 | DP-FERMI (λ = 0.5)  | 0.7912   | 0.0172                 |
 | DP-FERMI (λ = 1)    | 0.7895   | 0.0105                 |
 | DP-FERMI (λ = 2.5)  | 0.7884   | 0.0066                 |
+
+</td>
+</tr>
+</table>
 
 ---
 

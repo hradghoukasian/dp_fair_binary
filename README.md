@@ -20,7 +20,7 @@ In particular, for a given level of accuracy and privacy, our algorithm provides
 ### Adult Dataset (ε′ = 3, δ′ = 10⁻⁵)
 
 | Method              | Accuracy | Statistical Parity Gap |
-|---------------------|----------|------------------------|
+|---------------------|:--------:|:----------------------:|
 | Algorithm 2         | 0.7752   | 0.0057                 |
 | DP-FERMI (λ = 0.5)  | 0.7998   | 0.1020                 |
 | DP-FERMI (λ = 1)    | 0.7859   | 0.0462                 |
@@ -31,7 +31,7 @@ In particular, for a given level of accuracy and privacy, our algorithm provides
 ### Adult Dataset (ε′ = 9, δ′ = 10⁻⁵)
 
 | Method              | Accuracy | Statistical Parity Gap |
-|---------------------|----------|------------------------|
+|---------------------|:--------:|:----------------------:|
 | Algorithm 2         | 0.7782   | 0.0054                 |
 | DP-FERMI (λ = 0.5)  | 0.8091   | 0.0944                 |
 | DP-FERMI (λ = 1)    | 0.7923   | 0.0413                 |
@@ -42,7 +42,7 @@ In particular, for a given level of accuracy and privacy, our algorithm provides
 ### Credit Card Dataset (ε′ = 3, δ′ = 10⁻⁵)
 
 | Method              | Accuracy | Statistical Parity Gap |
-|---------------------|----------|------------------------|
+|---------------------|:--------:|:----------------------:|
 | Algorithm 2         | 0.7842   | 0.0041                 |
 | DP-FERMI (λ = 0.1)  | 0.7899   | 0.0212                 |
 | DP-FERMI (λ = 0.2)  | 0.7846   | 0.0193                 |
@@ -53,7 +53,7 @@ In particular, for a given level of accuracy and privacy, our algorithm provides
 ### Credit Card Dataset (ε′ = 9, δ′ = 10⁻⁵)
 
 | Method              | Accuracy | Statistical Parity Gap |
-|---------------------|----------|------------------------|
+|---------------------|:--------:|:----------------------:|
 | Algorithm 2         | 0.7908   | 0.0071                 |
 | DP-FERMI (λ = 0.25) | 0.7996   | 0.0188                 |
 | DP-FERMI (λ = 0.35) | 0.7950   | 0.0174                 |
@@ -84,10 +84,9 @@ To run **Algorithm 2**:
 ```bash
 python3 Algorithm2.py
 
+---
 
-## 🔐 Privacy Accounting Methods
-
-To determine the noise level for DP-SGD, use one of the following accountants:
+**Note:** Before running Algorithm 2, you must determine the appropriate noise level for DP-SGD using one of the following privacy accounting methods:
 
 - **PRV Accountant**  
   Run `PRVAccountant.ipynb` to compute the appropriate noise level for a given (ε, δ).
@@ -97,34 +96,3 @@ To determine the noise level for DP-SGD, use one of the following accountants:
 
 - **GDP Accountant**  
   In `Algorithm2.py`, set `initialize_accountant()` to return `GaussianAccountant()`.
-
-
-## 🧮 DP-FERMI Method
-
-To run the **DP-FERMI** baseline:
-
-1. Set all hyperparameters in `dp_fermi.py`:
-   - Dataset  
-   - Learning rates  
-   - Privacy parameters (ε, δ)  
-   - Fairness–accuracy trade-off parameter λ  
-
-2. Run:
-```bash
-python3 dp_fermi.py
-
-
-📄 Citation
-If you use this code or find our work helpful, please cite:
-
-bibtex
-Copy
-Edit
-@inproceedings{ghoukasian2024differentially,
-  title     = {Differentially Private Fair Binary Classifications},
-  author    = {Ghoukasian, Hrad and Asoodeh, Shahab},
-  booktitle = {2024 IEEE International Symposium on Information Theory (ISIT)},
-  pages     = {611--616},
-  year      = {2024},
-  organization = {IEEE}
-}
